@@ -1,0 +1,85 @@
+{
+  "candidate_profile": {
+    "name": "Emily Torres",
+    "background": "8 years as high school math teacher, completed coding bootcamp 10 months ago",
+    "current_role": "Junior Developer (6 months experience)"
+  },
+  "job_requirements": {
+    "title": "Frontend Developer",
+    "experience": "2+ years professional software development",
+    "skills": ["React", "JavaScript", "CSS", "Git"],
+    "company_stage": "Scale-up (Series B)"
+  },
+  "evaluation": {
+    "scores": {
+      "qualification": 5,
+      "capability_confidence": 7,
+      "situational_stability": 9,
+      "reward": 8,
+      "culture": 9,
+      "career": 9,
+      "compensation": 9
+    },
+    "aggregate_score": 75,
+    "recommendation": "yes",
+    "confidence_level": "medium",
+    "summary": "Career changer with exceptional learning velocity and strong teaching background that translates to technical communication skills. Built 6 production-quality projects in 10 months demonstrating solid React fundamentals. Teaching experience provides unique advantage for developer documentation and mentoring. Compensation expectations very reasonable for skill level. Primary concern is limited professional development experience, but rapid growth trajectory and strong motivation mitigate risk.",
+    "strengths": [
+      "Built portfolio of 6 React applications including e-commerce site with Stripe integration",
+      "Teaching background translates to exceptional documentation and communication skills",
+      "Steep learning curve: mastered React, TypeScript, and modern frontend tooling in under 1 year",
+      "GitHub shows consistent daily commits and clean, well-commented code",
+      "Strong problem-solving fundamentals from math teaching background",
+      "High motivation and clear career goals (seeking stable tech career)"
+    ],
+    "concerns": [
+      "Only 6 months professional development experience vs 2+ years requirement",
+      "Limited exposure to production systems at scale",
+      "No experience with team development workflows (code reviews, sprint planning)",
+      "May need mentorship on professional software development practices"
+    ],
+    "hidden_gem": {
+      "is_hidden_gem": true,
+      "reasoning": "Traditional ATS would auto-reject due to '2+ years professional experience' requirement. However, candidate's learning velocity is exceptional—achieved bootcamp graduate competency level in months and already has 6 months junior role experience. Teaching background brings unique cultural value: strong communication, mentorship capability, and patience. Career changers are often highly motivated, loyal, and have realistic compensation expectations. The 'gap' in years is offset by trajectory and transferable skills from teaching."
+    },
+    "interview_focus": [
+      {
+        "topic": "Technical Fundamentals",
+        "why_important": "Validate that portfolio represents genuine understanding, not tutorial copying",
+        "questions": [
+          "Walk me through the architecture of your e-commerce project. Why did you choose that component structure?",
+          "Explain how React hooks work under the hood. When would you use useCallback vs useMemo?",
+          "You have a performance issue with a list of 10,000 items. How would you approach optimizing it?"
+        ]
+      },
+      {
+        "topic": "Learning Approach and Growth",
+        "why_important": "Assess continued learning velocity and self-direction",
+        "questions": [
+          "What's been your approach to learning React and frontend development?",
+          "Tell me about a time you got stuck on a technical problem. How did you work through it?",
+          "What areas of frontend development do you want to deepen your knowledge in?"
+        ]
+      },
+      {
+        "topic": "Team Collaboration",
+        "why_important": "Evaluate readiness for team environment and receptiveness to feedback",
+        "questions": [
+          "Describe your experience with code reviews so far in your junior role",
+          "How do you handle feedback on your code?",
+          "Your teaching background—how does that influence how you collaborate with other developers?"
+        ]
+      },
+      {
+        "topic": "Career Motivation",
+        "why_important": "Understand commitment level and long-term goals",
+        "questions": [
+          "Why did you decide to leave teaching for software development?",
+          "What do you find most rewarding about programming vs teaching?",
+          "Where do you see yourself in 2-3 years?"
+        ]
+      }
+    ]
+  },
+  "notes": "Classic hidden gem: career changer with high potential. The teaching-to-tech transition often produces excellent developers due to strong communication skills, patience for debugging, and high motivation. Would be filtered out by experience requirement but represents high-value hire with strong loyalty and reasonable comp expectations."
+}

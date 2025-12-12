@@ -1,0 +1,73 @@
+{
+  "candidate_profile": {
+    "name": "Marcus Rivera",
+    "background": "High school diploma, 6 years self-taught programming",
+    "current_situation": "Freelance developer, building production SaaS applications"
+  },
+  "job_requirements": {
+    "title": "Full Stack Engineer",
+    "experience": "3+ years professional experience, BS in Computer Science preferred",
+    "skills": ["React", "Node.js", "PostgreSQL", "TypeScript"]
+  },
+  "evaluation": {
+    "scores": {
+      "qualification": 6,
+      "capability_confidence": 9,
+      "situational_stability": 8,
+      "reward": 9,
+      "culture": 8,
+      "career": 9,
+      "compensation": 9
+    },
+    "aggregate_score": 80,
+    "recommendation": "yes",
+    "confidence_level": "high",
+    "summary": "Exceptional self-taught developer with production portfolio that demonstrates strong fundamentals and rapid learning velocity. Built 3 SaaS products serving 8,000+ users with documented uptime >99.5%. Lacks traditional credentials but portfolio quality exceeds many CS graduates. High reward potential given ownership mentality and proven ability to ship. Compensation expectations likely very reasonable given freelance background and desire for stability.",
+    "strengths": [
+      "Built production SaaS handling real user load (customer dashboard used by 8k+ users)",
+      "Portfolio demonstrates full-stack capability: React frontend, Node.js backend, PostgreSQL database design",
+      "Open-source contributor with 2 popular libraries (combined 3k GitHub stars)",
+      "Self-directed learning demonstrates problem-solving and autonomy",
+      "Detailed technical blog showing deep understanding of React patterns, database indexing, and API design"
+    ],
+    "concerns": [
+      "No formal CS education (mitigated by portfolio strength and demonstrated fundamentals)",
+      "Freelance background means no experience with team collaboration or code review processes",
+      "Limited experience with large-scale systems (current projects support thousands, not millions of users)"
+    ],
+    "hidden_gem": {
+      "is_hidden_gem": true,
+      "reasoning": "Traditional ATS would automatically reject due to 'BS in Computer Science preferred' requirement and lack of 'professional experience' (freelance often filtered out). However, portfolio demonstrates exceptional capability, strong fundamentals, and high learning velocity. Candidate brings ownership mentality from building own products. Likely to be highly motivated, loyal, and cost-effective compared to traditional candidates with similar capability."
+    },
+    "interview_focus": [
+      {
+        "topic": "System Design and Scalability",
+        "why_important": "Validate that portfolio projects represent genuine technical depth, not just tutorials",
+        "questions": [
+          "Walk me through the architecture of your customer dashboard SaaS. How did you design the database schema?",
+          "What performance bottlenecks have you encountered and how did you solve them?",
+          "How would you modify your architecture if you needed to support 100x more users?"
+        ]
+      },
+      {
+        "topic": "Team Collaboration",
+        "why_important": "Assess readiness to work in team environment after solo work",
+        "questions": [
+          "Describe your experience with code reviews (as contributor or reviewer)",
+          "How do you handle conflicting opinions on technical decisions?",
+          "What's your experience working with Git in a team setting?"
+        ]
+      },
+      {
+        "topic": "Learning and Growth",
+        "why_important": "Validate continued learning velocity and approach to new technologies",
+        "questions": [
+          "What's the most recent technical concept you learned and how did you learn it?",
+          "Walk me through how you approach learning a new framework or technology",
+          "What areas of your skillset do you want to strengthen?"
+        ]
+      }
+    ]
+  },
+  "notes": "Classic hidden gem profile. High capability despite non-traditional background. Would be filtered out by most ATS systems but represents high-value hire with strong growth potential."
+}

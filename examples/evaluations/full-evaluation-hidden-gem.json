@@ -1,0 +1,269 @@
+{
+  "evaluation_id": "eval_20251211_001",
+  "timestamp": "2025-12-11T14:30:00Z",
+  "framework_version": "1.0.0",
+
+  "job": {
+    "title": "Senior Backend Engineer",
+    "company": "TechCorp (Series B SaaS Startup)",
+    "requirements": {
+      "must_have_skills": ["Python", "PostgreSQL", "REST APIs", "Distributed Systems", "AWS", "Docker"],
+      "nice_to_have_skills": ["Kubernetes", "Redis", "GraphQL", "Go"],
+      "years_experience": 5,
+      "education": "Bachelor's degree in Computer Science or equivalent experience"
+    }
+  },
+
+  "candidate": {
+    "name": "Alex Chen",
+    "education": "Associate's Degree in Information Technology (2-year community college)",
+    "experience_years": 7,
+    "current_role": "Freelance Backend Developer",
+    "background_summary": "Self-taught Python developer who started with Associate's degree, built freelance career over 7 years. Created and sold a small SaaS product (inventory management system for restaurants) used by 50+ businesses. Now seeking full-time role for financial stability and team collaboration.",
+    "cv_highlights": [
+      "Built and sold SaaS product (restaurant inventory system) - 50 paying customers, $3k MRR at peak",
+      "Freelance projects: API integrations, data pipelines, backend systems for 15+ clients",
+      "Open source: Contributed to Django, built popular Python library for async job processing (500 GitHub stars)",
+      "Technical blog with 20+ posts on Python performance, database optimization, API design",
+      "Stack: Python, Django, Flask, PostgreSQL, Redis, AWS (EC2, RDS, S3)",
+      "Self-directed learner: Completed online courses in distributed systems, system design"
+    ]
+  },
+
+  "evaluation": {
+    "dimension_scores": {
+      "1_qualification_match": {
+        "score": 7,
+        "reasoning": "Has 7 years experience vs. 5 required. Strong match on Python, PostgreSQL, REST APIs, AWS, Docker. Missing nice-to-haves like Kubernetes and Go, but has equivalent experience with distributed systems through freelance work. Lacks formal CS degree (has Associate's only), but extensive self-directed learning and real-world production experience. Qualification score is 7/10 (strong but not perfect match) due to education gap and missing some nice-to-haves.",
+        "skill_coverage": {
+          "must_have_coverage": "100% (6/6 skills)",
+          "nice_to_have_coverage": "50% (2/4 skills - has Redis and equivalent distributed systems experience)",
+          "education_match": "partial (Associate's vs. Bachelor's, but '7 years equivalent experience' clause applies)"
+        }
+      },
+
+      "2_capability_confidence": {
+        "score": 9,
+        "reasoning": "Very high confidence in ability to perform this role. Portfolio demonstrates genuine depth: built production SaaS serving real customers (50 businesses), handled real money ($3k MRR), dealt with production issues. Open source contributions to Django core show code quality meets professional standards. Technical blog reveals deep understanding of backend concepts (not superficial). Freelance experience means solving diverse problems independently. Only held back from 10 because lacks experience with very large scale (50 customers vs. TechCorp's 500+ enterprise customers processing 10B+ events).",
+        "evidence": [
+          "Production SaaS experience with paying customers",
+          "Django core contributions (high bar for code quality)",
+          "Technical blog demonstrates architectural thinking",
+          "7 years of diverse freelance projects = broad problem-solving",
+          "Async job processing library shows system design skills"
+        ]
+      },
+
+      "3_situational_stability": {
+        "score": 8,
+        "reasoning": "High likelihood to join and stay. Explicitly seeking full-time role for 'financial stability' (tired of freelance income volatility) and 'team collaboration' (wants mentorship and to work with others). Sold previous SaaS, suggesting readiness to move on from solo entrepreneurship. Age ~30 (7 years post-Associate's) aligns with settling into career stability. Only concern: entrepreneurial background might mean future startup desire, but current motivation suggests 2-3+ year commitment minimum. Location not mentioned but role is remote so no relocation risk.",
+        "positive_signals": [
+          "Explicit desire for stability after freelance volatility",
+          "Seeking team environment (social motivation)",
+          "Sold SaaS rather than continuing to grow it (ready to move on)",
+          "Career stage suggests settling down"
+        ],
+        "concerns": [
+          "Entrepreneurial background might lead to future startup (mitigated by current stated goals)"
+        ]
+      },
+
+      "4_reward_potential": {
+        "score": 9,
+        "reasoning": "Extremely high upside if this hire works out. Built entire SaaS product solo (frontend, backend, infrastructure, billing) - demonstrates end-to-end ownership and shipping velocity. Sold product successfully, showing business acumen and value creation. Freelance background means juggling multiple priorities, prioritization skills, client communication. Open source contributions indicate giving back to community. If given autonomy and mentorship at TechCorp, could become technical leader and high-leverage contributor. Entrepreneurial mindset + team environment = potential 10x engineer. Only not a 10 because unproven in large company setting.",
+        "upside_scenarios": [
+          "Becomes tech lead within 12-18 months (has leadership experience from solo projects)",
+          "Mentors junior engineers effectively (teaching via blog suggests ability to explain)",
+          "Drives significant product improvements (product-minded from SaaS experience)",
+          "High retention (grateful for opportunity + stability motivation)",
+          "Culture multiplier (ownership mentality is contagious)"
+        ]
+      },
+
+      "5_cultural_fit": {
+        "score": 8,
+        "reasoning": "Strong cultural alignment with startup environment. Job description values: 'Move fast, iterate quickly' (freelance = shipping fast), 'Data-driven decisions' (built SaaS = understand metrics), 'Ownership and accountability' (solo projects = ultimate ownership), 'Remote-first, async communication' (freelance = remote work experience). Potential concern: used to being own boss, might struggle with taking direction. However, explicitly seeking team collaboration suggests readiness. Open source contributions show ability to work with others' codebases and accept feedback. Score of 8 reflects strong fit with one minor area to validate (authority relationship).",
+        "alignment": {
+          "move_fast": "High - freelance means shipping quickly",
+          "data_driven": "High - SaaS experience = understanding metrics/revenue",
+          "ownership": "Very high - built entire products independently",
+          "remote_async": "High - 7 years remote freelance work"
+        },
+        "validation_needed": [
+          "Comfort with reporting structure (used to being own boss)",
+          "Ability to compromise on technical decisions when needed"
+        ]
+      },
+
+      "6_career_trajectory": {
+        "score": 9,
+        "reasoning": "Outstanding growth trajectory and learning velocity. Started with Associate's degree (not even Bachelor's), taught self Python, built freelance career, created and sold SaaS product, contributed to major open source projects - all in 7 years. Clear pattern of continuous learning: technical blog shows staying current, open source shows engaging with community, freelance diversity shows tackling new problems. Self-directed learning mindset is exactly what's needed in fast-moving startup. Recent completion of distributed systems courses shows proactive skill development. This is someone who will grow into senior/lead/principal roles rapidly. Score of 9 (not 10) because uncertain how trajectory continues in employed setting vs. self-directed freelance.",
+        "growth_signals": [
+          "Associate's → Freelance → SaaS Founder → OSS Contributor (clear upward progression)",
+          "Self-directed learning (distributed systems courses)",
+          "Teaching others (technical blog)",
+          "Taking on harder challenges (Django core contributions)",
+          "Business skills (sold product)"
+        ]
+      },
+
+      "7_compensation_alignment": {
+        "score": 9,
+        "reasoning": "Very high likelihood of alignment. Job offers $140k-$180k + equity. Candidate's freelance income was variable but SaaS peaked at $3k MRR ($36k/year) suggesting total income as freelancer was likely $60k-$90k range. Full-time offer of $140k+ represents significant raise AND stability (guaranteed income vs. variable freelance). Equity is likely very appealing given entrepreneurial mindset. No indication candidate is interviewing at FAANG for $300k+ offers. Lack of traditional credentials means fewer competing offers. High likelihood accepts at mid-to-upper range ($160k+) given stability motivation. Only concern: might have inflated expectations from selling SaaS, but that was modest exit.",
+        "analysis": {
+          "current_comp_estimate": "$60k-$90k (freelance + SaaS)",
+          "offer_range": "$140k-$180k + equity",
+          "comp_increase": "~75-150% increase",
+          "competing_offers_likely": "Low (non-traditional background limits options)",
+          "equity_appeal": "High (entrepreneurial mindset values upside)"
+        }
+      }
+    },
+
+    "aggregate_score": 84,
+    "aggregate_calculation": {
+      "formula": "Weighted average of 7 dimensions",
+      "weights": {
+        "qualification": 0.20,
+        "capability_confidence": 0.25,
+        "situational_stability": 0.10,
+        "reward_potential": 0.25,
+        "cultural_fit": 0.10,
+        "career_trajectory": 0.05,
+        "compensation_alignment": 0.05
+      },
+      "calculation": "(7*0.20) + (9*0.25) + (8*0.10) + (9*0.25) + (8*0.10) + (9*0.05) + (9*0.05) = 8.4 → 84/100"
+    },
+
+    "recommendation": "strong_yes",
+    "confidence_level": "high",
+
+    "executive_summary": "Alex is a classic 'hidden gem' - exceptional capability and potential that traditional ATS systems would miss due to non-traditional background. Despite lacking Bachelor's degree, has built production systems serving real customers, contributed to major open source projects, and demonstrates continuous learning velocity. Currently seeking stability after freelance career, making this an ideal time to hire. High reward potential given ownership mentality and proven ability to ship. Would likely become technical leader within 12-18 months. Strong culture fit with startup values. Very competitive offer given background. Aggregate score of 84/100 reflects a candidate in top 10% of backend engineer applicants.",
+
+    "strengths": [
+      "Production experience: Built and sold SaaS serving 50 businesses",
+      "Technical depth: Django core contributor, popular open source library author",
+      "End-to-end ownership: Handled all aspects of product (backend, infrastructure, business)",
+      "Learning velocity: Self-taught, continuous skill development",
+      "Shipping mentality: Freelance background = delivering real value",
+      "Business acumen: Ran SaaS, understands product metrics and revenue"
+    ],
+
+    "concerns": [
+      "Education gap: Associate's vs. Bachelor's (mitigated by 7 years experience and portfolio)",
+      "Team experience: Mostly solo work, uncertain how he'll adapt to team environment",
+      "Scale experience: Worked with 50 customers, not 500+ enterprises with 10B+ events",
+      "Authority dynamics: Used to being own boss, needs validation on reporting structure"
+    ],
+
+    "hidden_gem_analysis": {
+      "is_hidden_gem": true,
+      "ats_rejection_likely": true,
+      "rejection_reasons": [
+        "Education filter: 'Bachelor's degree preferred' → Associate's degree = auto-reject",
+        "Experience classification: 'Freelance' often filtered as 'unstable' or 'not real experience'",
+        "Company name recognition: No recognizable employers (self-employed)",
+        "Job title mismatch: 'Freelance Developer' doesn't match 'Senior Backend Engineer' keyword"
+      ],
+      "why_actually_strong": [
+        "Portfolio demonstrates capability far exceeding many CS graduates",
+        "Freelance = diverse problem-solving across 15+ projects",
+        "SaaS experience = full product lifecycle understanding",
+        "Open source contributions = code quality validated by community",
+        "Self-directed learning = exactly what startups need"
+      ],
+      "value_proposition": "Candidate with 'Senior Engineer' capability available at likely below-market rate due to non-traditional background limiting competing offers. High retention likelihood given desire for stability. Ownership mentality from entrepreneurial background is culture multiplier. This is exactly the type of hire that gives startups competitive advantage over corporates."
+    },
+
+    "interview_strategy": {
+      "focus_areas": [
+        {
+          "area": "Team Collaboration",
+          "priority": "high",
+          "why": "Biggest unknown - mostly solo work background",
+          "questions": [
+            "Tell me about a time you had to compromise on a technical decision",
+            "How do you handle code review feedback?",
+            "Describe your experience with Git in a team setting",
+            "What's your approach to documentation for teammates?"
+          ]
+        },
+        {
+          "area": "System Design at Scale",
+          "priority": "high",
+          "why": "Validate can scale beyond current 50-customer experience",
+          "questions": [
+            "Walk me through the architecture of your restaurant SaaS",
+            "How would you modify the architecture to support 10,000 restaurants?",
+            "What monitoring and observability did you implement?",
+            "Tell me about a production outage you handled"
+          ]
+        },
+        {
+          "area": "Technical Depth",
+          "priority": "medium",
+          "why": "Confirm portfolio represents real understanding",
+          "questions": [
+            "Explain the async job processing library you built - what problem does it solve?",
+            "What's your approach to database indexing and query optimization?",
+            "Describe your experience with distributed systems concepts",
+            "What was your contribution to Django core?"
+          ]
+        },
+        {
+          "area": "Motivation and Fit",
+          "priority": "medium",
+          "why": "Validate stability motivations and culture alignment",
+          "questions": [
+            "Why are you leaving freelance for full-time employment now?",
+            "What are you looking for in a team environment?",
+            "Tell me about a time you had to work under someone else's direction",
+            "What attracted you to TechCorp specifically?"
+          ]
+        }
+      ],
+      "red_flags_to_watch": [
+        "Overly defensive about education background (suggests insecurity)",
+        "Inability to articulate technical concepts clearly (blog might be ghost-written)",
+        "Talks only about own ideas, dismisses others' approaches (collaboration concern)",
+        "Seems to want job just for stability, not genuine interest (retention risk)"
+      ],
+      "green_flags_to_confirm": [
+        "Asks thoughtful questions about team structure and collaboration",
+        "Expresses excitement about learning from others",
+        "Shows humility about gaps while confidence about strengths",
+        "Demonstrates curiosity about TechCorp's technical challenges"
+      ]
+    },
+
+    "recommended_next_steps": [
+      {
+        "step": "Technical Interview",
+        "format": "90-minute system design + coding",
+        "focus": "Validate technical depth and scale thinking"
+      },
+      {
+        "step": "Team Collaboration Interview",
+        "format": "60-minute behavioral with future teammates",
+        "focus": "Assess culture fit and team dynamics"
+      },
+      {
+        "step": "Reference Checks",
+        "format": "Call 2-3 freelance clients",
+        "focus": "Validate communication, reliability, technical quality"
+      },
+      {
+        "step": "Offer",
+        "range": "$160k-$170k + standard equity (0.15-0.25%)",
+        "rationale": "Upper-middle of range given strong performance + competition mitigation"
+      }
+    ]
+  },
+
+  "metadata": {
+    "evaluator": "AI + Human Review",
+    "evaluation_time_seconds": 45,
+    "framework_version": "1.0.0",
+    "confidence_score": 0.92
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "job_description": {
+    "title": "Junior Frontend Developer",
+    "company": "DesignCo (Digital Agency)",
+    "location": "London, UK (Hybrid - 2 days/week in office)",
+    "salary_range": "£30k-£40k",
+    "description": "We're seeking a Junior Frontend Developer to join our growing web team. You'll work on client projects ranging from marketing websites to web applications, learning from experienced developers and gradually taking on more responsibility.\n\nThis is a great opportunity for someone early in their career (0-2 years experience) or a recent bootcamp graduate with a strong portfolio. We value enthusiasm, willingness to learn, and solid fundamentals over extensive experience.",
+    "requirements": {
+      "must_have_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Git"
+      ],
+      "nice_to_have_skills": [
+        "TypeScript",
+        "Tailwind CSS",
+        "Next.js",
+        "Responsive Design",
+        "Figma",
+        "Accessibility (WCAG)"
+      ],
+      "years_experience": 0,
+      "education_level": "Not required (portfolio-based assessment)",
+      "other_requirements": [
+        "Portfolio of 2-3 projects (personal or professional)",
+        "Strong HTML/CSS fundamentals",
+        "Basic understanding of React components and state",
+        "Eagerness to learn and take feedback",
+        "Good communication skills",
+        "UK work authorization"
+      ]
+    },
+    "responsibilities": [
+      "Build responsive websites and web applications under supervision",
+      "Implement designs from Figma mockups",
+      "Write clean, maintainable code following team standards",
+      "Participate in code reviews",
+      "Debug and fix frontend issues",
+      "Gradually take ownership of smaller features"
+    ],
+    "company_values": [
+      "Continuous learning and growth",
+      "Quality over speed",
+      "Collaborative team environment",
+      "Work-life balance"
+    ]
+  },
+  "evaluation_context": {
+    "role_type": "junior_technical",
+    "dimension_weights": {
+      "qualification": 0.15,
+      "capability_confidence": 0.20,
+      "situational_stability": 0.15,
+      "reward_potential": 0.15,
+      "cultural_fit": 0.15,
+      "career_trajectory": 0.15,
+      "compensation_alignment": 0.05
+    },
+    "notes": "More balanced weights for junior role. Lower Qualification (15%) because we're willing to train. Higher Career Trajectory (15%) and Reward (15%) to identify candidates with growth potential. Situational Stability important (15%) because we invest in training and want someone who'll stay 2+ years."
+  }
+}

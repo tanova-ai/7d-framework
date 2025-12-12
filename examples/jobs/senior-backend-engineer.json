@@ -1,0 +1,63 @@
+{
+  "job_description": {
+    "title": "Senior Backend Engineer",
+    "company": "TechCorp (Series B SaaS Startup)",
+    "location": "Remote (US/Europe)",
+    "salary_range": "$140k-$180k + equity",
+    "description": "We're looking for a Senior Backend Engineer to join our core platform team. You'll architect and build the systems that power our AI-driven analytics platform used by 500+ enterprise customers processing 10B+ events daily.\n\nYou'll work closely with the CTO, lead technical decisions, mentor junior engineers, and have significant autonomy in choosing technologies and approaches. This is a high-impact role where your work directly affects product reliability and customer satisfaction.",
+    "requirements": {
+      "must_have_skills": [
+        "Python",
+        "PostgreSQL",
+        "REST APIs",
+        "Distributed Systems",
+        "AWS",
+        "Docker"
+      ],
+      "nice_to_have_skills": [
+        "Kubernetes",
+        "Redis",
+        "GraphQL",
+        "Event-Driven Architecture",
+        "Go",
+        "Open Source Contributions"
+      ],
+      "years_experience": 5,
+      "education_level": "Bachelor's degree in Computer Science or equivalent experience",
+      "other_requirements": [
+        "Experience scaling systems to 10M+ users",
+        "Strong system design skills",
+        "Previous startup experience preferred",
+        "Excellent communication skills",
+        "Self-motivated and comfortable with ambiguity"
+      ]
+    },
+    "responsibilities": [
+      "Design and implement core platform APIs",
+      "Optimize database queries and system performance",
+      "Lead technical architecture decisions",
+      "Mentor 2-3 junior/mid-level engineers",
+      "Participate in on-call rotation",
+      "Collaborate with product team on feature scoping"
+    ],
+    "company_values": [
+      "Move fast, iterate quickly",
+      "Data-driven decision making",
+      "Ownership and accountability",
+      "Remote-first, async communication"
+    ]
+  },
+  "evaluation_context": {
+    "role_type": "technical_leadership",
+    "dimension_weights": {
+      "qualification": 0.20,
+      "capability_confidence": 0.25,
+      "situational_stability": 0.10,
+      "reward_potential": 0.25,
+      "cultural_fit": 0.10,
+      "career_trajectory": 0.05,
+      "compensation_alignment": 0.05
+    },
+    "notes": "High weighting on Capability (25%) and Reward (25%) because we need someone who can lead technical decisions and has high upside. Lower weight on Compensation (5%) because we're willing to pay top-of-market for the right candidate."
+  }
+}

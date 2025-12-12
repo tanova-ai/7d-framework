@@ -1,0 +1,65 @@
+{
+  "job_description": {
+    "title": "Growth Marketing Manager",
+    "company": "SaaSFlow (B2B SaaS, 50 employees)",
+    "location": "Remote (Americas timezone)",
+    "salary_range": "$90k-$120k + performance bonus",
+    "description": "We're hiring a Growth Marketing Manager to own our demand generation strategy. You'll be responsible for driving qualified leads through SEO, content marketing, paid channels, and email campaigns.\n\nThis role reports directly to the CMO and works cross-functionally with Sales, Product, and Design. You'll have budget autonomy ($15k/month) and ownership of our marketing tech stack. Success means hitting MQL targets and improving lead quality (not just volume).",
+    "requirements": {
+      "must_have_skills": [
+        "SEO",
+        "Content Marketing",
+        "Google Ads",
+        "LinkedIn Ads",
+        "Marketing Analytics",
+        "A/B Testing"
+      ],
+      "nice_to_have_skills": [
+        "HubSpot",
+        "Webflow",
+        "SQL",
+        "Product Marketing",
+        "Account-Based Marketing",
+        "Video Marketing"
+      ],
+      "years_experience": 3,
+      "education_level": "Not required",
+      "other_requirements": [
+        "B2B SaaS marketing experience (not B2C)",
+        "Proven track record of hitting lead targets",
+        "Strong analytical skills (comfortable with spreadsheets)",
+        "Experience managing $10k+ monthly ad budget",
+        "Self-starter who doesn't need hand-holding",
+        "Excellent written communication"
+      ]
+    },
+    "responsibilities": [
+      "Own quarterly MQL targets (currently 300 MQLs/month)",
+      "Manage paid advertising campaigns (Google, LinkedIn, Reddit)",
+      "Develop SEO strategy and create high-quality content",
+      "Build and optimize email nurture campaigns",
+      "Analyze funnel metrics and optimize conversion rates",
+      "Collaborate with Sales on lead quality and handoff process",
+      "Manage marketing tools and budget"
+    ],
+    "company_values": [
+      "Data-driven experimentation",
+      "Transparency and open communication",
+      "Customer-centric thinking",
+      "Results over activity"
+    ]
+  },
+  "evaluation_context": {
+    "role_type": "marketing_individual_contributor",
+    "dimension_weights": {
+      "qualification": 0.20,
+      "capability_confidence": 0.25,
+      "situational_stability": 0.10,
+      "reward_potential": 0.20,
+      "cultural_fit": 0.15,
+      "career_trajectory": 0.05,
+      "compensation_alignment": 0.05
+    },
+    "notes": "High Capability (25%) because we need someone who can execute independently. High Reward (20%) because marketing directly impacts revenue. Cultural Fit important (15%) for cross-functional collaboration. Lower Career Trajectory (5%) because we're hiring for current skill level, not just potential."
+  }
+}

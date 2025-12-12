@@ -1,0 +1,62 @@
+{
+  "candidate_profile": {
+    "name": "Sarah Chen",
+    "background": "BS Computer Science, 8 years experience at tech companies",
+    "current_role": "Senior Software Engineer at Series C Startup"
+  },
+  "job_requirements": {
+    "title": "Senior Backend Engineer",
+    "experience": "5+ years",
+    "skills": ["Python", "AWS", "PostgreSQL", "Microservices"],
+    "company_stage": "Series B Startup"
+  },
+  "evaluation": {
+    "scores": {
+      "qualification": 9,
+      "capability_confidence": 9,
+      "situational_stability": 8,
+      "reward": 7,
+      "culture": 8,
+      "career": 7,
+      "compensation": 7
+    },
+    "aggregate_score": 82,
+    "recommendation": "yes",
+    "confidence_level": "high",
+    "summary": "Excellent technical match with 8 years Python/AWS experience building distributed systems. Strong portfolio demonstrates capability to own backend architecture. Currently at Series C, interested in earlier-stage opportunity with more ownership. Minor compensation concern due to current comp level but startup equity interest mitigates risk.",
+    "strengths": [
+      "Designed and deployed microservices architecture handling 500k daily active users",
+      "Deep PostgreSQL expertise with documented query optimization reducing latency 60%",
+      "Led team of 4 engineers through SOC 2 compliance process",
+      "Strong AWS skills including Lambda, ECS, RDS, and CloudFormation"
+    ],
+    "concerns": [
+      "Current compensation likely $180k+; may be at high end of budget",
+      "Seeking earlier-stage startup which may indicate preference for equity over stability"
+    ],
+    "hidden_gem": {
+      "is_hidden_gem": false,
+      "reasoning": null
+    },
+    "interview_focus": [
+      {
+        "topic": "Microservices Architecture Design",
+        "why_important": "Role requires building new services and owning backend architecture decisions",
+        "questions": [
+          "Walk me through your decision process when designing the microservices architecture at your current company",
+          "What trade-offs did you consider between monolith and microservices?",
+          "How did you handle service communication and data consistency?"
+        ]
+      },
+      {
+        "topic": "Team Leadership and Ownership",
+        "why_important": "Role includes mentoring junior engineers and taking technical ownership",
+        "questions": [
+          "Tell me about leading your team through SOC 2 compliance. What challenges did you face?",
+          "How do you balance hands-on coding with mentorship responsibilities?"
+        ]
+      }
+    ]
+  },
+  "notes": "Traditional strong candidate. Would pass standard ATS systems easily."
+}

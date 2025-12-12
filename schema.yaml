@@ -1,0 +1,347 @@
+schema: "tanova-7d-candidate-evaluation"
+version: "1.0.0"
+created_by: "Tanova by Pedersen Consulting"
+website: "https://tanova.ai"
+license: "CC BY 4.0"
+description: "Machine-readable schema for the 7D Candidate Evaluation Framework"
+
+framework:
+  dimensions:
+    - id: "qualification"
+      name: "Qualification Match"
+      description: "Measures the degree to which a candidate's documented skills, experience, and background align with the explicit requirements stated in the job description"
+      score_range: [1, 10]
+
+      inputs_considered:
+        - "Presence of required technical skills"
+        - "Years of relevant experience"
+        - "Industry or domain expertise"
+        - "Educational background (when legitimately required)"
+        - "Certifications or specialized training"
+        - "Evidence of transferable skills from related fields"
+
+      scoring_guidance:
+        high:
+          range: [7, 10]
+          description: "Strong to perfect match; has 80%+ of required skills; experience level appropriate or exceeds requirements"
+        medium:
+          range: [4, 6]
+          description: "Partial match; has 50-75% of required skills; demonstrates transferable capabilities; can learn gaps"
+        low:
+          range: [1, 3]
+          description: "Limited match; lacks core required skills; experience significantly below requirements"
+
+    - id: "capability_confidence"
+      name: "Capability Confidence"
+      description: "Measures the degree of certainty that a candidate can successfully perform the core functions of the role, based on demonstrated evidence rather than stated claims"
+      score_range: [1, 10]
+
+      inputs_considered:
+        - "Portfolio evidence and project complexity"
+        - "Quantified achievements vs. vague claims"
+        - "Depth indicators (architecture decisions, scale handled)"
+        - "Problem-solving signals in experience descriptions"
+        - "Fundamental understanding demonstrated"
+        - "Learning evidence and skill acquisition patterns"
+
+      scoring_guidance:
+        high:
+          range: [7, 10]
+          description: "High to very high confidence; proven ability; strong fundamentals; portfolio demonstrates relevant problem-solving"
+        medium:
+          range: [4, 6]
+          description: "Moderate confidence; some skills need development; foundation is sound; can learn on the job"
+        low:
+          range: [1, 3]
+          description: "Low confidence; lacks fundamental skills; significant capability gaps; no evidence of relevant problem-solving"
+
+    - id: "situational_stability"
+      name: "Situational Stability"
+      description: "Assesses the likelihood that a candidate will accept an offer, remain in the role for a reasonable period, and be available to start within acceptable timeframes"
+      score_range: [1, 10]
+
+      inputs_considered:
+        - "Location alignment with job requirements"
+        - "Language fluency requirements"
+        - "Availability and notice period"
+        - "Motivation signals for this specific role"
+        - "Retention likelihood based on career stage"
+        - "Competing opportunities"
+        - "Life situation and relocation feasibility"
+
+      scoring_guidance:
+        high:
+          range: [7, 10]
+          description: "Stable to very stable; strong location/language match; clear availability; motivated; retention signals strong"
+        medium:
+          range: [4, 6]
+          description: "Moderate stability; typical hiring uncertainties; some location or timing concerns"
+        low:
+          range: [1, 3]
+          description: "Unstable; significant location mismatch; red flags around commitment; high flight risk"
+
+      special_considerations:
+        - context: "Consultant/contract roles with short duration (< 6 months)"
+          note: "Location penalties are reduced as temporary relocation is more feasible"
+        - context: "Remote roles"
+          note: "Geographic location matters less but timezone overlap and language requirements remain important"
+
+    - id: "reward"
+      name: "Reward Potential"
+      description: "Measures the upside value if this hire succeeds—the potential for exceptional performance, unique contributions, and value creation beyond baseline job requirements"
+      score_range: [1, 10]
+
+      inputs_considered:
+        - "Unique skills or perspectives that are rare"
+        - "Leadership indicators (mentorship, team building, ownership)"
+        - "Innovation signals (entrepreneurial experience, side projects)"
+        - "Learning velocity and speed of domain mastery"
+        - "Multiplier effects on team performance"
+        - "Fresh perspectives from non-traditional backgrounds"
+
+      scoring_guidance:
+        high:
+          range: [7, 10]
+          description: "High to transformational impact; brings unique value; entrepreneurial drive; potential for exceptional contributions"
+        medium:
+          range: [4, 6]
+          description: "Solid contributor; meets expectations; steady performer"
+        low:
+          range: [1, 3]
+          description: "Limited upside; fills role minimally; baseline performer"
+
+      philosophy:
+        entrepreneurship: "Failed entrepreneurial ventures indicate HIGH reward potential, not high risk. Entrepreneurs demonstrate ownership mentality, rapid learning, and resilience."
+
+    - id: "culture"
+      name: "Cultural Fit"
+      description: "Assesses alignment between the candidate's work style, values, communication approach, and the organization's culture as inferred from job description and company context"
+      score_range: [1, 10]
+
+      inputs_considered:
+        - "Work style signals (autonomy vs. structure, collaboration vs. independent)"
+        - "Communication style preferences"
+        - "Values alignment (mission-driven, growth mindset, etc.)"
+        - "Pace preference (startup velocity vs. enterprise deliberation)"
+        - "Decision-making style (data-driven, consensus, etc.)"
+        - "Company stage indicators from job description"
+
+      scoring_guidance:
+        high:
+          range: [7, 10]
+          description: "Strong to exceptional fit; work style and values strongly aligned; likely to thrive"
+        medium:
+          range: [4, 6]
+          description: "Moderate fit; some alignment with some adaptation needed"
+        low:
+          range: [1, 3]
+          description: "Poor fit; significant values or style misalignment"
+
+      notes:
+        - "Self-taught professionals and entrepreneurs often bring valuable cultural traits: self-motivation, ownership mentality, resourcefulness"
+        - "True fit is value alignment, not demographic similarity"
+
+    - id: "career"
+      name: "Career Trajectory"
+      description: "Evaluates the pattern and velocity of a candidate's professional growth, assessing whether they are on an upward path, stagnant, or declining"
+      score_range: [1, 10]
+
+      inputs_considered:
+        - "Scope expansion (increasing responsibilities, team size, technical complexity)"
+        - "Skill acquisition and continuous learning evidence"
+        - "Impact growth (measurable increases in value delivered)"
+        - "Role progression (promotions, title changes, leadership)"
+        - "Learning velocity and speed of mastering new domains"
+        - "Non-linear growth signals (career changes representing upward moves)"
+
+      scoring_guidance:
+        high:
+          range: [7, 10]
+          description: "Strong to rocket ship trajectory; rapid growth; constantly learning; expanding scope significantly"
+        medium:
+          range: [4, 6]
+          description: "Stable trajectory; incremental growth; slow but consistent development"
+        low:
+          range: [1, 3]
+          description: "Stagnant or declining; no visible growth; same role/skills for extended period"
+
+      philosophy:
+        non_linear_careers: "Career changes, lateral moves, or gaps do NOT indicate low trajectory if they represent strategic growth or learning. Non-linear careers often signal adaptability."
+
+    - id: "compensation"
+      name: "Compensation Alignment"
+      description: "Assesses the likelihood that the candidate's salary expectations will align with the employer's budget for the role"
+      score_range: [1, 10]
+
+      inputs_considered:
+        - "Seniority level and job titles"
+        - "Company background (FAANG, enterprise, startup, etc.)"
+        - "Role type (consultant/freelance vs. employee)"
+        - "Career stage (career changer, senior, executive)"
+        - "Geographic location and cost of living"
+        - "Progression pattern consistency"
+
+      scoring_guidance:
+        high:
+          range: [7, 10]
+          description: "Strong to good alignment; expectations likely match budget; signals suggest realistic requirements"
+        medium:
+          range: [4, 6]
+          description: "Moderate concern; potential mismatch but negotiable"
+        low:
+          range: [1, 3]
+          description: "Significant mismatch; expectations likely far exceed budget or candidate underqualified"
+
+      expectation_signals:
+        higher_expectations:
+          - "FAANG or Big Tech background (typically $300-500k+ total compensation)"
+          - "Senior/Principal/Staff/C-level titles"
+          - "Consultant or freelance background"
+          - "High cost of living location (SF, NYC, London)"
+
+        moderate_flexible:
+          - "Transitioning from non-tech to tech roles"
+          - "Career switcher or bootcamp graduate"
+          - "Startup-to-startup moves"
+          - "Seeking remote work"
+
+  composite_score:
+    range: [0, 100]
+    calculation: "Weighted average of the seven dimension scores (1-10 each), scaled to 0-100"
+    note: "Exact weights are role-dependent and implementation-specific. Generally, Qualification and Capability carry highest weight, followed by role-specific strategic priorities."
+
+    weighting_philosophy:
+      mission_critical_roles: "Higher weight on Capability Confidence; lower on Compensation Alignment"
+      high_growth_roles: "Higher weight on Reward Potential and Career Trajectory"
+      executive_roles: "Higher weight on Capability and Reward; lower on Compensation"
+      volume_hiring: "Higher weight on Qualification, Compensation, and Situational Stability"
+
+  interpretation:
+    - score_range: [90, 100]
+      label: "Exceptional match"
+      recommendation: "strong_yes"
+      action: "Prioritize interview, move fast"
+
+    - score_range: [75, 89]
+      label: "Strong match"
+      recommendation: "yes"
+      action: "Schedule interview, likely good fit"
+
+    - score_range: [60, 74]
+      label: "Moderate match"
+      recommendation: "maybe"
+      action: "Interview if capacity allows, context-dependent"
+
+    - score_range: [45, 59]
+      label: "Weak match"
+      recommendation: "likely_no"
+      action: "Only proceed if unique circumstances"
+
+    - score_range: [0, 44]
+      label: "Poor match"
+      recommendation: "no"
+      action: "Significant gaps or misalignment"
+
+  hidden_gem:
+    description: "A candidate who possesses strong capability and high potential but would be systematically rejected by traditional keyword-based ATS systems due to non-traditional background"
+
+    typical_profiles:
+      - "Self-taught professionals without formal degrees"
+      - "Career changers transitioning from other domains"
+      - "Entrepreneurs with business ownership experience"
+      - "Candidates with non-linear career paths or gaps"
+      - "Underrepresented groups lacking traditional credentials"
+
+    detection_signals:
+      - "High Capability Confidence despite low Qualification Match"
+      - "High Reward Potential with non-linear career"
+      - "High Career Trajectory despite short experience"
+      - "Evidence of self-directed learning"
+      - "Portfolio contradicts credential gaps"
+
+    why_traditional_systems_miss:
+      - "Keyword density requirements"
+      - "Degree requirements"
+      - "Company name matching"
+      - "Linear progression expectations"
+      - "Exact skill matching only"
+
+  bias_mitigation:
+    credential_bias:
+      traditional: "Elite degrees automatically score higher"
+      correction: "Capability emphasizes evidence depth over credential source"
+
+    career_gaps:
+      traditional: "Any employment gap is negative"
+      correction: "Gaps for entrepreneurship, learning, or projects are positive signals"
+
+    non_linear_careers:
+      traditional: "Lateral moves indicate instability"
+      correction: "Career changes evaluated for skill expansion and growth"
+
+    transferable_skills:
+      traditional: "Only exact skill matches count"
+      correction: "Adjacent domain experience and problem-solving fundamentals valued"
+
+  output_format:
+    scores:
+      type: "object"
+      properties:
+        qualification:
+          type: "integer"
+          range: [1, 10]
+        capability_confidence:
+          type: "integer"
+          range: [1, 10]
+        situational_stability:
+          type: "integer"
+          range: [1, 10]
+        reward:
+          type: "integer"
+          range: [1, 10]
+        culture:
+          type: "integer"
+          range: [1, 10]
+        career:
+          type: "integer"
+          range: [1, 10]
+        compensation:
+          type: "integer"
+          range: [1, 10]
+
+    aggregate_score:
+      type: "integer"
+      range: [0, 100]
+
+    recommendation:
+      type: "string"
+      enum: ["strong_yes", "yes", "maybe", "no", "strong_no"]
+
+    confidence_level:
+      type: "string"
+      enum: ["high", "medium", "low"]
+
+    summary:
+      type: "string"
+      description: "2-3 sentence overall assessment"
+
+    strengths:
+      type: "array"
+      items:
+        type: "string"
+      description: "Specific candidate strengths (3-5 items)"
+
+    concerns:
+      type: "array"
+      items:
+        type: "string"
+      description: "Specific concerns or gaps (2-4 items)"
+
+    hidden_gem:
+      type: "object"
+      properties:
+        is_hidden_gem:
+          type: "boolean"
+        reasoning:
+          type: "string"
+          description: "Why traditional ATS would miss this candidate"
