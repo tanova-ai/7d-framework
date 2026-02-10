@@ -49,6 +49,30 @@ Multi-dimensional evaluation that:
 
 ---
 
+## Validation
+
+The 7D Framework has been validated in production at [Tanova.ai](https://tanova.ai):
+
+**Metrics from 60-Day Stealth Beta:**
+- ✅ **1,000+ candidate evaluations** (100% organic growth, zero marketing)
+- ✅ **247 unique job roles** tested across industries
+- ✅ **60-80% reduction** in unqualified applications
+- ✅ **88% time savings** for CV screening (33 hours → 30 minutes per 100 CVs)
+- ✅ **85% average candidate quality** (scores 70+ out of 100)
+- ✅ **1.2% bounce rate** (40x better than industry average)
+
+**Organic Traction Signals:**
+- 100% word-of-mouth growth (no paid marketing)
+- 85.7% evaluation completion rate
+- 4.8-minute average engagement sessions
+- 100 candidates voluntarily joined pre-screened talent pool
+
+**Period:** November 2025 - February 2026
+
+Read more: [Press coverage](https://tanova.ai/press)
+
+---
+
 ## What's Here
 
 - **[SPECIFICATION.md](SPECIFICATION.md)** - Complete framework documentation
@@ -260,11 +284,18 @@ Feedback and suggestions for future versions: [hello@tanova.ai](mailto:hello@tan
 
 ## About Tanova
 
-**Tanova** (by Pedersen Consulting) created the 7D Framework to address systematic bias in AI recruitment systems. Our mission is to help organizations find exceptional talent regardless of background.
+**Tanova** created the 7D Framework to address systematic bias in AI recruitment systems.
+
+After validating the methodology with **1,000+ organic evaluations during a 60-day stealth beta** (zero marketing budget), we're open-sourcing it to help the industry build transparent, fair hiring tools.
+
+**Our mission:** Help organizations find exceptional talent regardless of background.
 
 - Website: [https://tanova.ai](https://tanova.ai)
+- Try the platform: [https://tanova.ai/check-cv](https://tanova.ai/check-cv)
 - Framework Docs: [https://tanova.ai/7d-framework](https://tanova.ai/7d-framework)
 - Contact: [hello@tanova.ai](mailto:hello@tanova.ai)
+
+**The unique advantage:** Tanova is the only platform where candidates see their 7-dimensional fit score BEFORE applying—creating a two-sided transparency marketplace.
 
 ---
 
